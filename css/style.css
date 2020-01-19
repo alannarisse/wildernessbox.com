@@ -30,8 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: "Fanwood Text", serif;
+  line-height: 1.4em;
 }
 
 ol, ul {
@@ -74,10 +75,19 @@ main {
   min-height: 400px;
 }
 
+p {
+  padding-top: 20px;
+}
+
+header {
+  width: 60%;
+  margin: 40px auto;
+}
+
 footer {
-  background-color: #333;
+  background-color: #6E5553;
   padding: 80px;
-  color: #6E5553;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
